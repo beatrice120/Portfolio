@@ -56,32 +56,32 @@ font-size: 22px;
     color: #2d2a2a;
 }
 /* this one work on my first paragraph of  hello */
-.text-conatiner p:nth-child(1){
+.text-container p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
     color: #6d6d6d;
     font-size: 22px;
 }
 /* this one work on my second paragraph */
-.text-conatiner p:nth-child(2){
+.text-container p:nth-child(2){
     font-family: calibri;
     font-weight: bold;
     letter-spacing: normal;
     font-size: 60px;
 }
-.text-conatiner p:nth-child(3){
+.text-container p:nth-child(3){
     font-family: myriad pro regular;
     color:#403e3e;
     font-size:30px;
     line-height: 30px;
 }
-.text-conatiner p{
+.text-container p{
     line-height: 0px;
     margin:45px 0px 25;
    
 
 }
-.text-conatiner{
+.text-container{
     position:absolute;
     left: 13%;
     top: 42%;
@@ -89,13 +89,52 @@ font-size: 22px;
 
 
 }
-.text-conatiner button{
-    width: 130%;
-    height: 42%;
+/*button decoration*/
+
+.text-container button{
+    width: 40%;
+    height: 92%;
     border-radius: 10px;
     font-family: calibri;
     font-weight: bold;
     font-size:14px ;
     outline: 0px 10px ;
 
+}
+.hire-btn{
+    border: 2px solid #373636;
+    color: #373636;
+    
+
+}
+.down-cv{
+
+    background-color: black;
+    color: #FFFFFF;
+    border: none;
+
+}
+/* button movement*/
+button:active{
+transform: scale(2.1);
+
+}
+.model{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    transform: translateX(-70%);
+
+}
+.about-container{
+
+    width: 80%;
+    height:330px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0.0.2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
 }
