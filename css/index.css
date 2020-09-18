@@ -222,6 +222,12 @@ color: #7e7d7d;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.3) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
 
 }
 .box-container{
@@ -261,4 +267,62 @@ color: #7e7d7d;
     font-family: calibri;
     font-size: 23px;
     line-height:0px;
+}
+.box-1 p:nth-child(3),
+.box-2 p:nth-child(3),
+.box-3 p:nth-child(3){
+    color: #FFFFFF;
+    font-family: calibri;
+   text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+    color: black;
+
+}
+.box-1 button,
+.box-2 button,
+.box-3 button{
+width: 100px;
+height: 30px;
+background-color: #FFFFFF;
+border: none;
+outline: none;
+border-radius: 5px;
+
+
+
+}
+.contact-me{
+    width: 100%;
+    height: 280px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+
+}
+.contact-me p{
+    color:white;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+
+
+}
+.contact-me button{
+width: 200px;
+height: 40px;
+background-color: white;
+outline: none;
+border:none;
+font-size: 14px;
+font-weight: bold;
+
+
 }
