@@ -1,5 +1,7 @@
-Author:Beatrice Shabani
-Application Name: My portfolio
+# Author:Beatrice Shabani
+
+# Application Name: My portfolio
+
 My application is about creating portfolio by using html and CSS .My portfolio highlight my skills,education and some experiences
 i a have in my field, inside my portfolio there is some projects which i have created like online butchery which sells the meat online, there is a project of online 
 shopping which sells the clothes online and also my another portfolio which shows my work experience,CV and Coverletter .
