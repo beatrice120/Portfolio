@@ -116,12 +116,12 @@ transform: scale(2.1);
 .about-container{
 
     width: 60%;
-    height:730px;
+    height:1322px;
     background-color:white;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     display: flex;
-    margin: -7% auto 20px auto;
+    margin: -3% auto 10px auto;
     position: relative;
     justify-content: space-evenly;
     align-items: center;
@@ -133,7 +133,7 @@ transform: scale(2.1);
     width: 550px;
 }
 .About-text p:nth-child(1){
-    color: #403e3e;
+    color: black;
     font-family: myriad pro;
     font-weight: bold;
     font-size: 23px;
@@ -142,7 +142,7 @@ transform: scale(2.1);
 
 }
 .About-text p:nth-child(2){
-color: #3e3d3d;
+color:black;
 font-size: 13px;
 font-family: myriad pro;
 font-weight: bold;
@@ -151,7 +151,7 @@ line-height: 5px;
 }
 .About-text p:nth-child(3),
 .About-text p:nth-child(4){
-    color:#7e7d7d;
+    color:black;
     font-family: calibri;
     font-size: 16px;
 }
@@ -164,7 +164,7 @@ line-height: 5px;
     font-family: calibri;
     background-color: #262525;
 }
-.services{
+.projects{
     height: 600px;
     background-color: #FFFFFF ;
     padding: 2% 10% 0px 10% ;
@@ -172,7 +172,7 @@ line-height: 5px;
 }
 /*decorating the text of services page*/
 
-.services-text p:nth-child(1){
+.projects-text p:nth-child(1){
 font-family: calibri;
 font-weight: bold;
 color: black;
@@ -182,7 +182,7 @@ line-height: 0px;
 
 
 }
-.services-text p:nth-child(2){
+.projects-text p:nth-child(2){
 
     font-family: calibri;
     font-weight: bold;
@@ -192,12 +192,12 @@ line-height: 0px;
 
 
 }
-.services-text p:nth-child(3){
+.projects-text p:nth-child(3){
 font-family: calibri;
-color: #7e7d7d;
+color: black;
 
 }
-.services-text{
+.projects-text{
     width: 500px;
     margin: 50px 0px;
 
@@ -222,7 +222,7 @@ color: #7e7d7d;
     justify-content: space-between;
 
 }
-/* decorating the box of my project*/
+/* decorating the box of my project
 .box-1{
     background-image: url("https://cdn.hipwallpaper.com/i/76/78/UeGbja.jpg");
 }
@@ -230,13 +230,13 @@ color: #7e7d7d;
     background-image: url("https://cdn.hipwallpaper.com/i/76/78/UeGbja.jpg");
 }
 .box-3{
-    background-image: url("https://cdn.hipwallpaper.com/i/76/78/UeGbja.jpg");
-}
+    background-image: url("images/bizi.png");
+}*/
 .box-1 span,
 .box-2 span,
 .box-3 span{
     width: 40px;
-    height: 40px;
+    height: 50px;
     border-radius: 50%;
     background-color: FFFFFF;
     display: flex;
