@@ -33,6 +33,8 @@ known bugs are: forgetting to connect your github and your project,confusing you
 
 some of the technology I used are: HTML and CSS 
 
+here is thelink of my application:
+https://beatrice120.github.io/myportfolio/
 if you have any problem or you want to know more about my application reach me on :
 
  Tel:0781915357
